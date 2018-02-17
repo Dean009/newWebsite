@@ -1,48 +1,60 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Dean Moore</title>
+    <title>Dean Moore's Website</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 <div id="wrapper">
-    
 	<div id="header">
+		<div id="bg"></div>
+		<div id="logo">
+			Contact Me
+			</div>
 		<div id="nav"><a href="index.html">Home</a> | <a href="aboutMe.html">About Me</a> | <a href="myProjects.html">My Projects</a> | <a href="contactMe.html">Contact Me</a> |</a></div>
 		<div id="bg"></div>
 	</div>
 	
 	<div id="main-content">
-		<div id="left-column">
-			<div id="logo">
-			Dean Moore's website
+		<div id="left-column3">
+			
+			<h2><center>Use the form below to contact me</center></h2>
+			
+			
+			<div class = "contactForm">
+				<form method = "post" name = "emailform" action = "toemail.php">
+				
+					<label for = "fname"> First Name </label>
+					<input type = "text" id = "firstName" placeholder = "Your name here">
+					
+					<label for = "surname"> Surname </label>
+					<input type = "text" id = "surname" placeholder = "Your surname here">
+			
+					<label for = "country"> Country </label>
+					<select id = "country" name = "country">
+						<option value = "UK"> United Kingdom </option>
+						<option value = "Other"> Other (please specify in message)</option>
+					</select>
+					
+					<label for = "email"> Email Address </label>
+					<input type = "text" id = "email" placeholder = "Your email here">
+					
+					<label for = "subject"> Subject of inquiry </label>
+					<input type = "text" id = "subject" placeholder = "Subject of email here">
+					
+					<label for = "message"> Message </label>
+					<textarea id = "message" name = "message" placeholder = "Write message here.." style = "height = 300px"></textarea>
+					
+					<input type = "submit" value = "Submit">
+				
+				</form>
 			</div>
-			<h2>Contact me!</h2>
-			<p>
-				<img src="http://img189.imageshack.us/img189/9177/paperru.jpg
-" width="139" height="150" style="margin: 0 10px 10px 0;float:left;" />
-				Currently I am studying Computing at The Open University while working full time.<br/>
-				I like to learn about programming in my free time, learning new languages and trying to complete small projects to increase my understanding.<br/>
-				I try to read as many books as possible, averaging about 10 a month time permitting; trying to hit 100 books read a year!<br/>
-				Currently I listen to music several hours a day - most genres are good, mood depending.<br/>
-			</p>
-		</div>
-		<div id="right-column">
-			<div id="main-image"><img src="http://img38.imageshack.us/img38/7065/michaelscotto.jpg
-" width="160" height="188" /></div>
-			<div class="sidebar">
-				<h3>A little about me</h3>
-				<p>My name is Dean Moore, and I am currently pursuing a career in software development.</p>
-				<h3>Where to find me</h3>
-				<div class="box">
-					<ul>
-						<li><a href="https://github.com/Dean009" target="_blank">GitHub</a></li>
-						<li><a href="https://twitter.com/Hypuh0" target="_blank">Twitter</a></li>
-						<li><a href="https://instagram.com/hypuh09" target="_blank">Instagram</a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
+			
+			
+			
+			
+			
+		</div>		
 	</div>
 	<div id="footer">
 		Copyright &copy; 2018 Dean Moore. All rights reserved.<br/>
