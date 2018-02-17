@@ -3,8 +3,15 @@
 <head>
     <title>Dean Moore's Website</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="../images/favicon.ico" type="image/x-icon">
 </head>
 <body>
+
+
 <div id="wrapper">
 	<div id="header">
 		<div id="bg"></div>
@@ -16,40 +23,92 @@
 	</div>
 	
 	<div id="main-content">
-		<div id="left-column">			
-			<h3>My current projects</h3>
-			<div id="main-image"><img src="../images/fp.png" width="200" height="300" /></div>
-			
-			
-			
-			
-			
-			
+	
+			<!-- Slideshow container -->
+		<div class="slideshow-container">
+
+	  <!-- Full-width images with number and caption text -->
+		  <div class="mySlides fade">	
+			<img src="../images/flappy.jpg" style="width:100%">
+			<div class="text">Flappy Bird Clone, Made in Java</div>
+		  </div>
+
+		  <div class="mySlides fade">	
+			<img src="../images/note_90's.jpg" style="width:100%">
+			<div class="text">Note taking application, Made in Java</div>
+		  </div>
+
+		  <div class="mySlides fade">	
+			<img src="../images/snake.jpg" style="width:100%">
+			<div class="text">Snake type game, Made in C# in Visual Studio</div>
+		  </div>
+
+		  
 		</div>
-		
-		
-		
-		
-		
-		
-		<div id="right-column">
-			<h3>Why these projects</h3>
-				<p>I started making a Flappy Bird clone in Java, this task was to try and increase my overall understanding of Java and work with maths more than I was used to in my previous projects"</p>
-			
-			
-			
-			
-			
-			
-			
-			
-			
-		</div>
+		<br>
+
+	<!-- The dots/circles -->
+	<div style="text-align:center">
+	  <span class="dot" onclick="currentSlide(1)"></span> 
+	  <span class="dot" onclick="currentSlide(2)"></span> 
+	  <span class="dot" onclick="currentSlide(3)"></span> 
+	</div>
+	
+	
+	
+	<div id = "details">
+		<p>Flappy bird clone can be found <a href = "https://github.com/Dean009/Flappy-Bird-2">here</a></p>
+		<p>The note taking application can be found <a href = "https://github.com/Dean009/note_take"> here</a></p>
+		<p>Snake clone can be found <a href = "https://github.com/Dean009/Snake_C-1">here</a></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	</div>
 	<div id="footer">
 		Copyright &copy; 2018 Dean Moore. All rights reserved.<br/>
 	</div>
+	
+	
 </div>
+
+<!-- JavaScript slideshow script below -->
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 5000); // Change image every 5 seconds
+}
+
+
+</script>
+<!-- JavaScript slideshow script ended -->
+
+
 
 </body>
 </html>
