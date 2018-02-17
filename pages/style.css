@@ -3,12 +3,26 @@
 #logo img{
 	border-radius: 25px;
 	width: 100%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	text-align: center;
+	padding: 3px;
 }
 
-
+#logo2 img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 35%;
+	padding: 3px;
+	margin-bottom: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	text-align: center;
+	border-radius: 15px;
+	float: center;
+}
 
 body {
-    font:normal 16px/1.6em Times New Roman, Helvetica, sans-serif;
+    font:normal 16px/1.6em Trebuchet MS body, Helvetica, sans-serif;
 	color:#090e5b;
 	margin:0;
 	padding:0;
@@ -16,6 +30,7 @@ body {
 }
 
 p {
+	font:normal 16px/1.6em Trebuchet MS body, Helvetica, sans-serif;
 	margin:0;
 	padding:0;
 }
@@ -40,6 +55,7 @@ p {
 
 #main-image {
 	text-align:center;
+	position: relative;	
 }
 
 #left-column {
@@ -49,6 +65,7 @@ p {
 }
 
 #right-column {
+	margin-top:15px;
 	width:400px;
 	float:left;
 }
@@ -64,14 +81,32 @@ p {
 	width:360px;
 	margin:0 auto;
 	padding:10px 10px;
-	background:#F3ECEA;	
+	background:#f3f3f3;	
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	text-align: center;
+	font:normal 16px/1.6em Trebuchet MS body, Helvetica, sans-serif;
 }
 
 #footer {
-	background:#F3ECEA;
+	
 	border-top:1px solid #f0e9eb;
 	padding:10px 15px;
 	clear:both;
+	font:normal 10px/1.6em Trebuchet MS body, Helvetica, sans-serif;
+}
+
+#details p {
+	margin:0;
+	padding-bottom:10px;
+	font:normal 16px/1.6em Trebuchet MS body, Helvetica, sans-serif;
+	border-bottom:1px solid black;
+}
+
+#details h4{
+	padding-top: 20px;
+	margin:0;
+	padding-bottom:5px;
+	font:normal 18px/1.6em Trebuchet MS body, Helvetica, sans-serif;
 }
 
 /* Global Styling */
@@ -92,7 +127,7 @@ h1 {
 	color:#7a2e40;
 	margin:0;
 	padding-bottom:10px;
-	font:normal 20px Times New Roman, serif;
+	font:normal 20px Trebuchet MS body, serif;
 	border-bottom:1px solid black;
 }
 
@@ -100,7 +135,7 @@ h2 {
 	color:#7a2e40;
 	margin:20px 0 10px;
 	padding-bottom:10px;
-	font:normal 20px Times New Roman, serif;
+	font:normal 20px Trebuchet MS body, serif;
 	border-bottom:1px solid black;
 }
 
@@ -108,7 +143,7 @@ h3 {
 	color:#7a2e40;
 	margin:10px 0;
 	padding-bottom:10px;
-	font:normal 20px Times New Roman, sans-serif;
+	font:normal 20px Trebuchet MS body, sans-serif;
 	border-bottom:1px solid black;
 	text-align: center;
 }
@@ -116,33 +151,64 @@ h3 {
 ul {
 	padding:0;
 	margin:0 0 0 17px;
-	
 }
 
 .box {
 	padding:5px;
+	font:normal 16px/1.6em Trebuchet MS body, Helvetica, sans-serif;
 }
+
+/* nav bar settings */
 
 #nav {
 	border-radius: 25px;
-	background:#F3ECEA;
-	padding:10px 20px;
-	text-align:center;
+	list-style-type: none;
+	width: 800px;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	border: 1px solid #e7e7e7;
+	background-color: #f3f3f3;
+	text-align: center;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	text-align: center;
+}
+	
+#first img {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	text-align: center;
+	width: 800px;
+}
+
+#second img {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	text-align: center;
+	width: 800px;
+}
+
+#nav  {
+	float: center;
 }
 
 #nav a {
-	margin: 0 10px;
+    display: inline;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
-#nav a:visited, #nav a:link {
-	text-decoration:none;
-	color:#7a2e40;
+#nav a:hover:not(.active) {
+    background-color: #ddd;
 }
 
-#nav a:hover {
-	text-decoration:underline;
-	color:#f6dde3;
+#nav a.active {
+    color: white;
+    background-color: #4CAF50;
 }
+
+/* end of nav bar settings */
+
 
 #logo {
 	margin-bottom:20px;

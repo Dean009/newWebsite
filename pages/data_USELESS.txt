@@ -1,0 +1,10 @@
+h1>Up Until Now...</h1>
+				<p>I always say that I have two main interests that define who I am as a person, being able to combine them would be ideal. Firstly, I have since around the age of about 
+				7 been into technology. I used to get technology magazines growing up with whatever pocket money I had. I remember fondly getting a family PC around this time and was 
+				addicted to it. I later got one for myself at around 11, and like most kids got into games; strategy games being a favourite. I grew up with an appreciation for technology, always
+				trying to learn as much as I could from the guidance I got. I would later go on to build and repair PC's, however, I found myself getting bored fairly quickly. This carried on
+				until I was introduces to my first programming language (HTML) at school at around 14. </br> </br>Around the age of 17 I began taking an interest in Science, particularly Physics
+				which confused matters. I was always the IT kid growing up but now found myself gravitating towards Physics more and more and stopped learning programming languages and started reading
+				religiously about space and how it works. It wasn't until age 22 until I started picking up programming again (with Java), realising that I can have an interest in more than one thing at a time and after delaying University
+				until I figured out which way I wanted my life to go I enrolled at The Open University, choosing the on-line University over a traditional campus University due to wanting to work through my studies. </p>
+					
