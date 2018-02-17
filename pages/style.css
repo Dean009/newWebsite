@@ -1,7 +1,7 @@
 /* Layout */
 
 body {
-    font:normal 12px/1.6em Times New Roman, Helvetica, sans-serif;
+    font:normal 16px/1.6em Times New Roman, Helvetica, sans-serif;
 	color:#090e5b;
 	margin:0;
 	padding:0;
@@ -16,8 +16,6 @@ p {
 #wrapper {
 	margin:0 auto;
 	width:800px;
-	/* border-left:1px solid #090e5b;
-	border-right:1px solid #090e5b; */
 }
 
 #header {
@@ -50,8 +48,8 @@ p {
 
 #right-column li {
 	display: inline;
-	padding: 15px 15px;
-	margin: 15px;
+	padding: 10px;
+	margin: 4px;
 }
 
 .sidebar {
@@ -87,7 +85,7 @@ h1 {
 	color:#7a2e40;
 	margin:0;
 	padding-bottom:10px;
-	font:normal 17px Times New Roman, serif;
+	font:normal 20px Times New Roman, serif;
 	border-bottom:1px solid black;
 }
 
@@ -95,7 +93,7 @@ h2 {
 	color:#7a2e40;
 	margin:20px 0 10px;
 	padding-bottom:10px;
-	font:normal 17px Times New Roman, serif;
+	font:normal 20px Times New Roman, serif;
 	border-bottom:1px solid black;
 }
 
@@ -103,7 +101,7 @@ h3 {
 	color:#7a2e40;
 	margin:10px 0;
 	padding-bottom:10px;
-	font:normal 14px Times New Roman, sans-serif;
+	font:normal 20px Times New Roman, sans-serif;
 	border-bottom:1px solid black;
 	text-align: center;
 }
@@ -115,8 +113,6 @@ ul {
 }
 
 .box {
-	/* background:#F3ECEA; 
-	border:1px solid #f0e9eb; */
 	padding:5px;
 }
 
