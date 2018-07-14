@@ -26,7 +26,9 @@ body {
 	color:#090e5b;
 	margin:0;
 	padding:0;
-	background:#FFFFFF;
+	background-image: url("../images/bg.jpg");
+	background-repeat: no-repeat;
+	background-size: 1920px 1080px;
 }
 
 p {
@@ -169,7 +171,6 @@ ul {
 	overflow: hidden;
 	border: 1px solid #e7e7e7;
 	background-color: #f3f3f3;
-	text-align: center;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	text-align: center;
 }

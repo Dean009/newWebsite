@@ -1,0 +1,41 @@
+body {
+    font:normal 16px/1.6em Trebuchet MS body, Helvetica, sans-serif;
+	color:#090e5b;
+	margin:0;
+	padding:0;
+	background-image: url("../images/bg.jpg");
+	background-repeat: no-repeat;
+    background-size: 1920px 1080px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 20px;;
+    padding: 0;
+    width: 6%;
+    height: 24.5%;
+    position: fixed;
+    overflow: auto;
+    border: 1px solid rgb(3, 102, 231, 0.5);
+    border-radius: 5px;
+    text-align: center;
+}
+
+li a {
+   display: block;
+   color: rgb(14, 22, 1);
+   padding: 8px 16px;
+   text-decoration: none;
+}
+
+li a.active { /* not working */
+    background-color: yellowgreen;
+    color: white;
+}
+
+li a:hover:not(.active) { /* not working */
+    background-color: yellowgreen;
+    color: white;
+}
+
+
